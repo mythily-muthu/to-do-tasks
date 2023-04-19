@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import InputArea from './Components/InputArea';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <div className="title">
         <h1>To-Do-Tasks</h1>
       </div>
-
+      <InputArea />
     </div>
   );
 }
