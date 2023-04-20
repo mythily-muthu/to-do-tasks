@@ -1,0 +1,22 @@
+.form {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 5px;
+}
+
+.input {
+  padding: 6px;
+  border: solid 1px gray;
+  border-radius: 5px;
+}
+
+.button {
+  padding-top: 10px;
+}
+
+.span {
+  font-weight: bold;
+}

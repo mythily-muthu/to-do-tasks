@@ -1,5 +1,33 @@
+body {
+  background-color: #ffeaa7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  min-height: 70vh;
+}
+
 .container {
-  text-align: center;
   height: auto;
   width: 100%;
+  max-width: 400px;
+  min-width: 250px;
+  min-height: 400px;
+  background-color: #f1f5f8;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 20px 20px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 5px 2px;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+}
+.title > h1 {
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px rgb(91, 90, 90);
 }
